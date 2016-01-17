@@ -1,4 +1,7 @@
 {
+    "express": {
+        "view cache": false
+    },
     
 
     "middleware": {

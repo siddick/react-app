@@ -1,6 +1,20 @@
 {
-
+    "express": {
+        "view cache": true,
+        "view engine": "js",
+        "views": "path:./public/templates"
+    },
     
+    "view engines": {
+        "js": {
+            "module": "express-react-views",
+            "renderer": {
+                "method": "createEngine",
+                "arguments": []
+            }
+        }
+    },
+
 
     
 
