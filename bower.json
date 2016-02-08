@@ -16,6 +16,12 @@
     "tests"
   ],
   "dependencies": {
-    "requirejs": "^2.1.16"
+    "requirejs": "^2.1.16",
+    "react": "~0.14.6",
+    "ReactRouter": "https://cdnjs.cloudflare.com/ajax/libs/react-router/2.0.0-rc6/ReactRouter.js",
+    "jquery": "~2.2.0",
+    "History": "https://npmcdn.com/history@1.12.5/umd/History.js",
+    "nprogress": "~0.2.0",
+    "bootstrap-sass": "~3.3.6"
   }
 }
