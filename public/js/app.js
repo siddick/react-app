@@ -34,7 +34,10 @@ require([
     RR.browserHistory.setState(JSON.parse(content.getAttribute('data-state')));
 
     ReactDOM.render(React.createElement(RR.Router, {
-        history: RR.browserHistory
+        history: RR.browserHistory,
+        onUpdate: function () {
+            NProgress.done();
+        }
     }, routes.Routes), content, function () {
         NProgress.done();
     });

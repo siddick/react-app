@@ -7,6 +7,7 @@ var IndexPage = require('./index'),
     RR = require('react-router');
 
 function loadState(location, callback) {
+    pageStart();
     if (!location.state && location.action === 'PUSH') {
         jQuery.getJSON(location.pathname + location.search, function (json) {
             RR.browserHistory.setState(json);

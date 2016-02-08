@@ -6,7 +6,6 @@ var NavTab = React.createClass({
         location: React.PropTypes.object.isRequired
     },
     render: function () {
-        console.log(this);
         var className = this.context.location.pathname === this.props.to ? 'active' : '';
         return (
             <li className={className}>
